@@ -339,13 +339,15 @@ function App() {
           <div className="horario-card">
             <h3>Viernes</h3>
             <p>Solo urgencias</p>
+            <span className="horario-hora">2223582030</span>
             
           </div>
 
           <div className="horario-card horario-emergencia">
             <h3>Sábado y Domingo</h3>
             <p>Únicamente casos de extrema urgencia</p>
-            <span className="horario-hora">Línea de emergencia: </span>
+            <span className="horario-hora">Línea de emergencia:2227478544
+            Favor de contactar vía WhatsApp </span>
           </div>
         </div>
       </section>
