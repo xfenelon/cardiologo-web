@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import hospitalPuebla from './assets/hospitalpuebla.png'
 import fotopersonal from './assets/fotopersonal.jpeg'
@@ -20,6 +21,8 @@ import video4 from './assets/video4.mp4'
 import video5 from './assets/video5.mp4'
 
 function App() {
+  const [menuAbierto, setMenuAbierto] = useState(false)
+
   return (
     <main>
       <nav className="navbar">
@@ -31,7 +34,18 @@ function App() {
           </div>
         </div>
 
-        <ul>
+        <button
+          className={`menu-toggle ${menuAbierto ? 'activo' : ''}`}
+          onClick={() => setMenuAbierto(!menuAbierto)}
+          aria-label="Abrir menú"
+          aria-expanded={menuAbierto}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul className={menuAbierto ? 'abierto' : ''} onClick={() => setMenuAbierto(false)}>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre">Sobre mí</a></li>
           <li><a href="#servicios">Servicios</a></li>
