@@ -439,6 +439,17 @@ function App() {
             <strong>Paciente</strong>
           </div>
         </div>
+
+        <div className="botones opiniones-boton">
+          <a
+            className="btn btn-secundario"
+            href="https://share.google/SPZKy3KgcNu6GXo9e"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver todas las opiniones en Google
+          </a>
+        </div>
       </section>
 
      <section className="contacto" id="contacto">
