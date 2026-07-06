@@ -346,7 +346,7 @@ function App() {
           <div className="horario-card horario-emergencia">
             <h3>Sábado y Domingo</h3>
             <p>Únicamente casos de extrema urgencia. Favor de contactar vía WhatsApp </p>
-            <span className="horario-hora">Línea de emergencia:222 747 8544 </span>
+            <span className="horario-hora">Línea de emergencia: 222 747 8544 </span>
           </div>
         </div>
       </section>
