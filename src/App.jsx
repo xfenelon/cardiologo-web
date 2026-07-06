@@ -468,7 +468,7 @@ function App() {
     <a className="btn btn-secundario" href="tel:2211031257">
       Llamar al consultorio
     </a>
-    <a className="btn btn-secundario" href="mailto:diabot_620@hotmail.com">
+    <a className="btn btn-secundario" href="mailto:ricvar7216@gmail.com">
       Escribir por correo
     </a>
   </div>
