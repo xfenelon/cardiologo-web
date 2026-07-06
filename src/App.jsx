@@ -4,8 +4,20 @@ import fotopersonal from './assets/fotopersonal.jpeg'
 import fotoconsultorio from './assets/fotoconsultorio.jpeg'
 import operacion from './assets/operacion.jpeg'
 import aparato from './assets/aparato.jpeg'
+import marcapasos from './assets/marcapasos.jpeg'
 import laraza from './assets/laraza.jpeg'
 import torre from './assets/torre.jpg'
+import salaOperacion1 from './assets/salaoperacion.png'
+import salaOperacion2 from './assets/salaoperacion2.png'
+import salaOperacion3 from './assets/salaoperacion3.jpeg'
+import salaOperacion4 from './assets/salaoperacion4.jpeg'
+import salaOperacion5 from './assets/salaoperacion5.png'
+import salaOperacion6 from './assets/salaoperacion6.jpeg'
+import video1 from './assets/video1.mp4'
+import video2 from './assets/video2.mp4'
+import video3 from './assets/video3.mp4'
+import video4 from './assets/video4.mp4'
+import video5 from './assets/video5.mp4'
 
 function App() {
   return (
@@ -136,6 +148,44 @@ function App() {
             <img src={aparato} alt="Equipo especializado utilizado en procedimientos cardiológicos" />
             <span className="foto-caption">Equipo especializado</span>
           </div>
+
+          <div className="foto-real">
+            <img src={marcapasos} alt="Marcapasos utilizado en procedimientos cardiológicos" />
+            <span className="foto-caption">Marcapasos</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="sala-operaciones" id="sala-operaciones">
+        <div className="cabecera">
+          <p className="tag azul">GALERÍA CLÍNICA</p>
+          <h2>Dentro de la sala de operaciones</h2>
+        </div>
+
+        <div className="sala-operaciones-grid">
+          <div className="foto-real">
+            <img src={salaOperacion1} alt="Sala de operaciones donde el Dr. Vargas Salgado realiza procedimientos" />
+          </div>
+
+          <div className="foto-real">
+            <img src={salaOperacion2} alt="Sala de operaciones durante un procedimiento cardiológico" />
+          </div>
+
+          <div className="foto-real">
+            <img src={salaOperacion3} alt="Equipo médico trabajando en sala de operaciones" />
+          </div>
+
+          <div className="foto-real">
+            <img src={salaOperacion4} alt="Sala de operaciones equipada para procedimientos cardiológicos" />
+          </div>
+
+          <div className="foto-real">
+            <img src={salaOperacion5} alt="Procedimiento cardiológico en curso en sala de operaciones" />
+          </div>
+
+          <div className="foto-real">
+            <img src={salaOperacion6} alt="Instalaciones de la sala de operaciones del Hospital Puebla" />
+          </div>
         </div>
       </section>
 
@@ -191,6 +241,33 @@ function App() {
             <p>Seguimiento continuo para pacientes con hipertensión arterial.</p>
           </div>
         </div>
+      </section>
+
+      <section className="seguros" id="seguros">
+        <div className="cabecera">
+          <p className="tag azul">SEGUROS MÉDICOS</p>
+          <h2>Aceptamos seguros de gastos médicos mayores</h2>
+          <p className="seguros-descripcion">
+            El consultorio del Dr. Vargas Salgado acepta pacientes con seguro de
+            gastos médicos mayores. La cobertura aplica principalmente para
+            procedimientos como cateterismo cardíaco, colocación de marcapasos
+            y estudios electrofisiológicos para el tratamiento de arritmias
+            mediante cateterismo.
+          </p>
+        </div>
+
+        <div className="seguros-lista">
+          <span className="seguro-badge">GNP Seguros</span>
+          <span className="seguro-badge">AXA Seguros</span>
+          <span className="seguro-badge">MetLife</span>
+          <span className="seguro-badge">Seguros Monterrey New York Life</span>
+          <span className="seguro-badge">Otras aseguradoras</span>
+        </div>
+
+        <p className="seguros-nota">
+          Te recomendamos confirmar tu cobertura y el proceso de autorización
+          directamente con tu aseguradora antes de tu consulta.
+        </p>
       </section>
 
       <section className="cuando" id="cuando-acudir">
@@ -295,6 +372,35 @@ function App() {
           <div className="foto-real">
             <img src={fotoconsultorio} alt="Entrada del consultorio 617" />
             <span className="foto-caption">Entrada del consultorio</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="videos" id="videos">
+        <div className="cabecera">
+          <p className="tag azul">VIDEOS</p>
+          <h2>Conoce más en video</h2>
+        </div>
+
+        <div className="videos-grid">
+          <div className="video-real">
+            <video src={video1} controls preload="metadata"></video>
+          </div>
+
+          <div className="video-real">
+            <video src={video2} controls preload="metadata"></video>
+          </div>
+
+          <div className="video-real">
+            <video src={video3} controls preload="metadata"></video>
+          </div>
+
+          <div className="video-real">
+            <video src={video4} controls preload="metadata"></video>
+          </div>
+
+          <div className="video-real">
+            <video src={video5} controls preload="metadata"></video>
           </div>
         </div>
       </section>
