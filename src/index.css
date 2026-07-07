@@ -557,6 +557,24 @@ section {
   font-weight: 800;
   font-size: 0.95rem;
   letter-spacing: 0.3px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.horario-hora:hover {
+  color: #0d47a1;
+}
+
+.horario-etiqueta {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #cf1f1f;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed #f0bcbc;
 }
 
 .horario-emergencia {
@@ -566,9 +584,12 @@ section {
 
 .horario-emergencia .horario-hora {
   color: #cf1f1f;
-  min-height: 24px;
-  border-bottom: 1px dashed #cf1f1f;
-  padding-bottom: 4px;
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
+
+.horario-emergencia .horario-hora:hover {
+  color: #a31414;
 }
 
 /* UBICACION */
